@@ -1,0 +1,14 @@
+body {
+
+background: url("../images/background.jpg");
+	
+}
+
+.jumbotron {
+	background: url("../images/chicago.jpg");
+	background-size: contain;
+	background-size: 100%
+	background-repeat: no-repeat;
+	text-align: center;
+	color:white;
+}

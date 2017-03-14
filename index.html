@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="assets/javascript/app.js"></script>
+
+</head>
+<body>
+
+<div class="title jumbotron"><h2>How well do YOU know Chicago?</h2> 
+</div>
+
+<div><p></p></div>
+
+<button id="start">Start</button>
+
+<div>Time Remaining: <span id="timeLeft"></span> seconds
+</div>
+<br>
+<br>
+
+
+<div id="maincontent">
+
+<div id="questions"><h3>Questions</h3></div>
+
+
+<div id="questionOne"><strong>Which way does the Chicago River flow?</strong>
+<!--answer: Backwards-->
+<div class="radio1">
+<label class="radio-inline1">
+  <input type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="Forward"> Forward, towards Lake Michigan
+</label>
+<label class="radio-inline1">
+  <input type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="Backward"> Backwards, towards the Mississippi River and Gulf of Mexico
+</label>
+</div>
+</div>
+
+<br>
+
+<div id="questionTwo"><strong>How many states can you see from the top of the Willis Tower? (but it's REALLY Sears Tower)</strong>
+<!--answer: 4-->
+<div class="radio2">
+<label class="radio-inline2">
+  <input type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="one"> 1
+</label>
+<label class="radio-inline2">
+  <input type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="two"> 2
+</label>
+<label class="radio-inline2">
+  <input type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="three"> 3
+</label>
+<label class="radio-inline2">
+  <input type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="four"> 4
+</label>
+</div>
+</div>
+
+<br>
+
+<div id="questionThree"><strong>Which Chicago street boasts an upper, lower, north, south, east, and west direction?</strong>
+<!--answer: Wacker Drive-->
+<div class="radio3">
+<label class="radio-inline3">
+  <input type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="State"> State Street
+</label>
+<label class="radio-inline3">
+  <input type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="Grand"> Grand Avenue
+</label>
+<label class="radio-inline3">
+  <input type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="Michigan"> Michigan Avenue
+</label>
+<label class="radio-inline3">
+  <input type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="Wacker"> Wacker Drive
+</label>
+</div>
+</div>
+
+<br>
+
+<div id="questionFour"><strong>Which was NOT invented in Chicago?</strong>
+<!--answer: Ho Ho's..Twinkies were invented here though!-->
+<div class="radio4">
+<label class="radio-inline4">
+  <input type="radio" name="inlineRadioOptions4" id="inlineRadio4" value="spraypaint"> Spray Paint
+</label>
+<label class="radio-inline4">
+  <input type="radio" name="inlineRadioOptions4" id="inlineRadio4" value="ferriswheel"> Ferris Wheel
+</label>
+<label class="radio-inline4">
+  <input type="radio" name="inlineRadioOptions4" id="inlineRadio4" value="zipper"> zipper
+</label>
+<label class="radio-inline4">
+  <input type="radio" name="inlineRadioOptions4" id="inlineRadio4" value="hohos"> Ho Ho's
+</label>
+<label class="radio-inline4">
+  <input type="radio" name="inlineRadioOptions4" id="inlineRadio4" value="vaccuum"> Vaccuum Cleaner
+</label>
+</div>
+</div>
+</div>
+
+
+<div id="answers">
+<h3>Answers:</h3>
+<p>1. The Chicago River runs backwards.</p>
+<p>2. You can see 4 states from the Sears Tower </p>
+<p>3. Wacker Drive </p>
+<p>4. Ho Ho's were not invented in Chicago, but Twinkies were.</p>
+</div>
+
+<div id="score">
+<h3>Your score:</h3>
+<p>Correct: <span class="correct"></span> </p>
+<p>Incorrect: <span class="incorrect"></span> </p>
+</div>
+
+  
+</div>
+
+</body>
+</html>
